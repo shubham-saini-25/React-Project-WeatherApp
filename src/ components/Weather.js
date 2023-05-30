@@ -5,7 +5,7 @@ import { FaLocationArrow, FaTemperatureHigh } from "react-icons/fa";
 import { faDroplet, faWind } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
 
-const Main = () => {
+const Weather = () => {
     const [cityName, setCityName] = useState('Noida');
     const [weatherInfo, setWeatherInfo] = useState({});
     const [cities, setCities] = useState([]);
@@ -125,4 +125,4 @@ const Main = () => {
     );
 }
 
-export default Main;
+export default Weather;
